@@ -2,7 +2,8 @@
   "common": {
     "version": "Version",
     "invalid_configuration": "Invalid configuration",
-    "show_warning": "Show Warning",
-    "show_error": "Show Error"
+    "no_entity_selected": "No valid entity was selected.",
+    "live_open_stream": "View",
+    "offline_open_stream": "Open"
   }
 }
