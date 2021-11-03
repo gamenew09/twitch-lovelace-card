@@ -116,7 +116,7 @@ export class TwitchCard extends LitElement {
 
     if(state === undefined) {
       return this._showError(localize('common.no_entity_selected'));
-    };
+    }
 
     const isStreaming = state.state === "streaming";
 
