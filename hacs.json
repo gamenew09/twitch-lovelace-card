@@ -1,5 +1,6 @@
 {
     "name": "Twitch Card",
     "render_readme": true,
+    "country": "US",
     "filename": "twitch-card.js"
 }
