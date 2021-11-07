@@ -1,6 +1,6 @@
 {
   "name": "twitch-card",
-  "version": "1.4.1",
+  "version": "0.0.3",
   "description": "Lovelace twitch-card",
   "keywords": [
     "home-assistant",
