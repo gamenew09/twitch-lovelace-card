@@ -50,6 +50,7 @@ interface TwitchSensorAttributes {
   subscribed: boolean;
   subscription_is_gifted: boolean;
 
+  thumbnail_url?: string;
   title?: string;
   game?: string;
   viewers?: number;
@@ -150,7 +151,7 @@ export class TwitchCard extends LitElement {
           <hr>
           <div class="twitch-lower">
               <!-- Change thumbnail image, temp for now. -->
-              <img class="twitch-stream-thumbnail" src="https://static-cdn.jtvnw.net/previews-ttv/live_user_${state.attributes.friendly_name?.toLowerCase() ?? ""}-440x248.jpg"></img>
+              <img class="twitch-stream-thumbnail" src="${attributes.thumbnail_url}"></img>
               <div class="twitch-info">
                 <div id="twitch-title">${attributes.title}</div>
                 <div id="twitch-game" class="secondary">${attributes.game ?? ""}</div>
